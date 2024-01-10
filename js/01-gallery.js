@@ -3,9 +3,7 @@ import { galleryItems } from "./gallery-items.js";
 
 console.log(galleryItems);
 import basiclightbox from "https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/+esm";
-const modal = basicLightbox.create(`
-    <img>
-`),
+const modal = basicLightbox.create(`<img>`),
   modalImg = modal.element().querySelector("img");
 
 const gallery = document.querySelector("ul.gallery"),
