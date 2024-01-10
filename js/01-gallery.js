@@ -13,14 +13,14 @@ const gallery = document.querySelector("ul.gallery"),
   liTemplate = document.createElement("template");
 
 liTemplate.innerHTML = `<li class="gallery__item">
-  <a class="gallery__link" href="large-image.jpg">
-    <img
-      class="gallery__image"
-      src="small-image.jpg"
-      data-source="large-image.jpg"
-      alt="Image description"
-    />
-  </a>
+<a class="gallery__link" href="large-image.jpg">
+  <img
+    class="gallery__image"
+    src="small-image.jpg"
+    data-source="large-image.jpg"
+    alt="Image description"
+  />
+</a>
 </li>`;
 
 function appendFromGalleryItem(item) {
